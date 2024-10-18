@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CIENCIA DE DATOS</title>
+    <style>
+        /* Fondo degradado para toda la página */
+        body {
+            background: linear-gradient(to right, #00c6ff, #df40a8); /* Degradado de azul claro a azul oscuro */
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            font-family: 'Chicken Pie', sans-serif; /* Aplica la fuente Roboto */
+            font-size: 6em; /* Tamaño de la fuente modificado */
+            color: white; /* Color blanco para el texto */
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        h2 {
+            font-family: 'Chicken Pie', sans-serif; /* Aplica la fuente Roboto */
+            font-size: 2em; /* Tamaño de la fuente modificado */
+            color: white; /* Color blanco para el texto */
+            text-align: auto;
+            margin: 20px 0;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+            color: rgb(9, 9, 9); /* El texto del header es blanco para que contraste con el fondo */
+        }
+
+        /* Sección con cuadro más pequeño */
+        section {
+            width: 80%; /* Reduce el ancho al 60% de la pantalla */
+            margin: 20px auto; /* Centra la sección horizontalmente */
+            padding: 10px; /* Reduce el padding para hacer el cuadro más pequeño */
+            border-radius: 8px;
+            background-color: #e0ffff; /* Fondo de las secciones */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, h2 {
+            color: #000000; /* Títulos en blanco para que destaquen en el fondo */
+        }
+
+        p {
+            color: #333333; /* Texto de párrafos en gris oscuro */
+        }
+
+        img {
+            max-width: 60%;
+            height: auto;
+        }
+
+        a {
+            color: #7e34a0; /* Enlaces en verde azulado */
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            color: rgb(0, 0, 0); /* Color del texto */
+            margin-top: auto; /* Mueve el pie de página a la parte inferior */
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>CIENCIA DE DATOS</h1>
+    </header>
+
+    <!-- Sección de Webscraping -->
+    <section>
+        <h2>Webscraping</h2>
+        <p>¿Qué es Webscraping?</p>
+        <p>El Webscraping es una técnica para extraer datos de sitios web. Utilizando herramientas de scraping, podemos recolectar información estructurada que puede ser analizada más adelante.</p>
+        <img src="websc.jpeg" alt="Webscraping"width="400">
+        <p>En este caso, hemos extraído datos de la pagina <a href="https://weather.com/" target="_blank">https://weather.com/</a> para analizar su comportamiento. </p>
+        <p>El código en Google Colab → <a href="https://colab.research.google.com/drive/1FP2BXpqCRQUeunwAwre45SAdY7cnLpC8?usp=sharing" target="_blank">Webscraping - Google Colab</a>.</p>
+    </section>
+
+    <!-- Sección de Técnicas de Visualización -->
+    <section>
+        <h2>Técnicas de Visualización</h2>
+        <p>Las técnicas de visualización de datos son fundamentales para interpretar grandes cantidades de datos. Usamos gráficos como barras, líneas y diagramas de dispersión para este propósito.</p>
+        <p>En este caso, tenemos la visualización de los datos obtenidos del articulo <a href="https://blog.unitips.mx/carreras-mejor-pagadas#:~:text=Top%2010%20de%20las%20carreras%20mejor%20pagadas%20en,Ingenier%C3%ADa%20Civil%20...%208%208.%20Bellas%20Artes%20" target="_blank">Carreras mejor pagadas de México</a>.</p>
+        <img src="dist-frec.jpg" alt="Carreras"width="500">
+        <p>El código en Google Colab →  <a href="https://colab.research.google.com/drive/14lF8G3w_rPbFZLsbH0OdLBus9Jqb6ua6?usp=sharing" target="_blank">Tecnicas de Visualizacion - Google Colab</a>.</p>
+    </section>
+
+    <!-- Sección de Medidas de Tendencia Central -->
+    <section>
+        <h2>Medidas de Tendencia Central</h2>
+        <p>Las medidas de tendencia central nos ayudan a resumir un conjunto de datos mediante la media, mediana o moda.</p>
+        <p>En este caso, se aplicaron las medidas de tendencia central a una lista de 30 caliicaciones de alumnos.</p>
+        <img src="tend-cen.jpg" alt="Tendencia Central"width="400">
+        <p>El código en Google Colab → <a href="https://colab.research.google.com/drive/19sQPmlXN7ACnXIXOZmWuVYA4DtQiXE3n?usp=sharing" target="_blank">Medias de tendecia centrl - Google Colab</a>.</p>
+    </section>
+
+    <!-- Sección de Medidas de Dispersión -->
+    <section>
+        <h2>Medidas de Dispersión</h2>
+        <p>Las medidas de dispersión, como la desviación estándar y el rango, nos permiten entender la variabilidad en los datos.</p>
+        <p>En este caso, se aplica las medidas dispersion a datos aleatorios de los pesos de 100 personas</p>
+        <img src="hist.jpg" alt="Medidas de Dispersión"width="400">
+        <p>El código en Google Colab → <a href="https://colab.research.google.com/drive/1xjAYVkOmybnt371TanVmB0O1O99pJAmm?usp=sharing" target="_blank">Medidas de dispersion - Google Colab</a>.</p>
+    </section>
+
+    <!-- Sección de Conclusiones -->
+    <section>
+        <h2>Conclusion</h2>
+        <p>Al crear esta página web aprendí muchas cosas interesantes y útiles. Primero, pude aplicar lo que hemos estado viendo en clase de una forma más práctica y entretenida. 
+            Una de las partes más emocionantes fue usar hipervínculos que llevan a Google Colab, donde la gente puede ejecutar el código y ver los resultados por sí mismos. Esto no solo hace que la información sea más interactiva, sino que también ayuda a entender mejor cómo funcionan las cosas en la ciencia de datos.
+            También disfruté diseñar la página. Elegir colores, agregar imágenes y organizar el contenido de manera clara hizo que el proceso fuera creativo y divertido. Aprendí a usar etiquetas HTML para que la estructura de la página fuera más amigable para el usuario. 
+            Finalmente, al publicar la página en GitHub, sentí una gran satisfacción al ver que mi trabajo estaba disponible para que otros lo exploraran. En resumen, este proyecto no solo me ayudó a reforzar mis conocimientos sobre ciencia de datos, sino que también me enseñó habilidades valiosas en diseño web y comunicación. ¡Definitivamente es algo que me servirá en el futuro!
+            </p>
+        <p>Accede al proyecto completo en nuestro <a href="https://github.com/your_github_link" target="_blank">repositorio de GitHub</a>.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Hecho Vianney Coffey - Estudiante de Desarrollo de Software - Cesun Universidad.</p>
+    </footer>
+
+</body>
+</html>
